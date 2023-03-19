@@ -22,62 +22,43 @@ if (navToggle !== null) {
 
     if (visibility === "false") {
       primaryNav.setAttribute("data-visible", true);
-      // navLottie.setAttribute("data-visible", true);
       navToggle.setAttribute("aria-expanded", true);
       navToggle.classList.add("active");
       primaryNav.style.overflow = "hidden";
       logoContainer.style.opacity = "0";
-      // naviBottomLinks.style.display = "flex";
       document.body.style.overflow = "hidden";
-      // contactBtn.style.display = "none";
-            // navBorder.style.display = "none";
-            navBorder.style.opacity = "0";
-
+      navBorder.style.opacity = "0";
     } else {
       primaryNav.setAttribute("data-visible", false);
-      // navLottie.setAttribute("data-visible", false);
       navToggle.setAttribute("aria-expanded", false);
       navToggle.classList.remove("active");
       primaryNav.style.overflow = "hidden";
       logoContainer.style.opacity = "1";
       document.body.style.overflow = "scroll";
-      // naviBottomLinks.style.display = "none";
-      // contactBtn.style.display = "block";
-      // navBorder.style.display = "flex";
       navBorder.style.opacity = "1";
     }
   });
 }
-
-
 const cofeBtn = document.querySelector('.coffee-btn');
 const cakeBtn = document.querySelector('.cake-btn');
-
 const cofeContainer = document.querySelector('.coffee-container');
 const cakeContainer = document.querySelector('.cakes-container');
-
 if (cofeBtn !== null) {
-
   cofeBtn.addEventListener('click', () =>{
     cofeContainer.setAttribute("data-visible", true);
-    cakeContainer.setAttribute("data-visible", false);
-    
-    cofeBtn.classList.remove('deactive-btn');
-    
+    cakeContainer.setAttribute("data-visible", false);    
+    cofeBtn.classList.remove('deactive-btn');    
     cakeBtn.classList.add('deactive-btn');
   })
 }
 if (cakeBtn !== null) {
-
 cakeBtn.addEventListener('click', () =>{
   cakeContainer.setAttribute("data-visible", true);
   cofeContainer.setAttribute("data-visible", false);
   cofeBtn.classList.add('deactive-btn');
   cakeBtn.classList.remove('deactive-btn');
-
 })
 }
-
 window.addEventListener('load', () =>{
   loader.style.display = "none";
   const popUp = () =>{
@@ -120,33 +101,3 @@ if (navLinksToggle !== null) {
   });
 }
 }
-
-
-// const form = document.getElementById('contact-form');
-// const messageStatus = document.getElementById('message-status');
-
-// form.addEventListener('submit', function(event) {
-//   event.preventDefault();
-//   const name = document.getElementById('name').value;
-//   const email = document.getElementById('email').value;
-//   const message = document.getElementById('message').value;
-//   const data = {
-//     name: name,
-//     email: email,
-//     message: message
-//   };
-//   const xhr = new XMLHttpRequest();
-//   xhr.open('GET', ''); // Replace with the URL of the server-side script that processes the form data
-//   xhr.setRequestHeader('Content-Type', 'application/json');
-//   xhr.onload = function() {
-//     const response = JSON.parse(xhr.responseText);
-//     messageStatus.innerHTML = response.message; // Display the success or error message returned by the server
-//     if (xhr.status === 200) {
-//       form.reset(); // Reset the form after submission
-//     } else {
-//       console.log(xhr.responseText); // Log any errors to the console
-//       messageStatus.innerHTML = 'An error occurred. Please try again later.'; // Display a generic error message to the user
-//     }
-//   };
-//   xhr.send(JSON.stringify(data));
-// });
