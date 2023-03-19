@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mediaq.css">
+    <title>Cofee</title>
+</head>
+<body>
+    <div id="preloader" class="flex-center">
+        <lottie-player class="z-i-10 hero-lottie" src="/assets/pictures/loading.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    </div>
+    <header class="nav-bar w-full relative">
+        <nav class="nav-container w-full z-i-10 transition-all">
+            <div class="nav-wrapper max-width flex justify-between items-center margin-0-auto padd-block-1rem padd-inline relative">
+                                            <div class="logo-container flex-center">
+                                                <a href="/index.html" class="flex-center font-family-logo color-text font-size-logo text-decolist-none white-space">Lurr Cafè</a>
+                                            </div>
+
+                                                <ul class="nav-links-container flex items-center justify-between text-decolist-none gap-2rem color-nav font-size-nav font-weight-400 font-family-nav" data-visible="false">                 
+                                                    <li><a data-page="hero-section" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Home</a></li>                   
+                                                    <li><a href="/pages/about.html" data-page="about-section" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">About Us</a></li>                   
+                                                    <li><a href="/pages/menu.html" data-page="menu-section" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Menu</a></li>                   
+                                                    <!-- <li><a class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase">Reservations</a></li>                    -->
+                                                    <li><a href="/pages/events.html" data-page="events-section" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Events</a></li>                   
+                                                    <li><a href="/pages/gallery.html" data-page="gallery-section" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Gallery</a></li>                   
+                                                    <li><a href="/pages/contact.html" data-page="contact-section" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Contact</a></li>
+                                                    <span class="nav-border"></span>                   
+                                                    <!-- <li><a class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase"><img src="/assets/icons/facebook.svg" class="icon-spec" alt=""></a></li> -->
+                                                    <li><a href="https://www.instagram.com/" target="_blank" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase"><lottie-player class="z-i-10 icon-spec" src="/assets/pictures/instagram.json" background="transparent"  speed="1"  style="width: 30px; height: 30px;" loop autoplay></a></lottie-player></li>
+                                                    <li><a href="https://www.facebook.com/" target="_blank" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase"><lottie-player class="z-i-10 icon-spec" src="/assets/pictures/facebook.json" background="transparent"  speed="1"  style="width: 34px; height: 34px;" loop autoplay></a></lottie-player></li>
+
+                                                    <!-- <li><a class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase"><img src="/assets/icons/instagram.svg" class="icon-spec" alt=""></a></li> -->
+                                
+                                                </ul>
+                                                
+                                                <div class="mobile-nav-toggle hamburger-wrapper nav-items flex-center relative cursor-pointer">
+                                                <button class=" hamburger-icon relative border-none flex items-center justify-center w-full" aria-controls="nav-links-container" aria-expanded="false">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </button>
+                                                </div>
+            </div>
+        </nav>
+    </header>
+<main>
+    <section id="hero-section" class="hero-container w-full">
+                <div class="hero-wrapper max-width margin-0-auto padd-inline wh-full flex-center flex-col wh-full color-text">
+                    <div class="flex-center flex-col wh-full color-text  ">
+                            <lottie-player class="z-i-10 hero-lottie" src="/assets/pictures/coffe.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+                            <h1 class="relative font-family-sub font-size-title hero-title">Welcome to Lurr Cafe</h1>
+    
+                            <svg class="absolute circle-text circle-text-width w-full" xmlns="http://www.w3.org/2000/svg" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+                                <defs>
+                                <path id="textcircle" d="M250,400
+                                            a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(105,250,250)" />
+                                </defs>
+                                <g class="textcircle">
+                                <text textLength="400" class="color-text">
+                                    <textPath class="font-size-sub-title bg-color color-text padd-inline"
+                                            xlink:href="#textcircle" 
+                
+                                            textLength="400">
+                                            Life is too short for bad coffee
+                                    </textPath>
+                                </text>
+                                </g>
+                        </svg>
+                    </div>
+                </div>
+    </section>
+
+    <section id="about-section" class="about-container padd-between-section">
+        <div class="about-wrapper max-width margin-0-auto padd-inline w-full grid grid-temp-col gap-2rem">
+            <img class="w-full padd-2rem" src="https://images.unsplash.com/photo-1522120331923-bd99e51eb26e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="Coffee Shop Picutre" loading="lazy" draggable="false">
+            <div class="flex flex-col justify-center gap-2rem padd-2rem color-text">
+                <h2 class="font-size-title uppercase">About Lurr</h2>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Welcome to our coffee shop restaurant in the beautiful city of Kraków! We have been serving our customers since 2018 and are passionate about providing the best coffee and cakes to our community.</p>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">At our coffee shop, we believe in creating an inviting and cozy atmosphere where our customers can relax and enjoy their favorite coffee blends, along with our freshly baked cakes and pastries. We carefully select and roast our coffee beans to ensure that every cup of coffee we serve is rich in flavor and aroma.</p>
+                <!-- <p class="font-family-nav font-size-paragraph font-weight-400">Our menu features a wide variety of coffee drinks, from classic espresso to specialty lattes, along with a selection of teas, hot chocolate, and refreshing smoothies. We also take pride in our selection of homemade cakes, pastries, and sandwiches, made fresh every day using high-quality ingredients.</p> -->
+                <!-- <p class="font-family-nav font-size-paragraph font-weight-400">We are committed to providing excellent service and creating a warm and welcoming environment for our customers. Whether you are looking for a quiet place to work or catch up with friends, our coffee shop is the perfect spot.</p> -->
+                <!-- <p class="font-family-nav font-size-paragraph font-weight-400">Thank you for choosing our coffee shop restaurant in Kraków. We look forward to serving you soon!</p> -->
+                <button class="max-width-10rem border-rounded-full cursor-pointer bg-none border-w-1 border-color-light"><a href="/pages/about.html" class="text-decolist-none">
+
+                    <div class="flex-center gap-1rem padd-block-04rem color-text">
+                        
+                        <p class="white-space font-btn">Learn more</p>
+                        <lottie-player src="/assets/icons/arrow-rigth.json" background="transparent"  speed="1"  style="width: 24px; height:24px;" loop autoplay></lottie-player>
+                    </div>
+                </a>
+                    </button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="menu-section" class="menu-container padd-between-section">
+        <div class="menu-wrapper max-width margin-0-auto padd-inline w-full grid grid-temp-col gap-2rem">
+
+                    <img class="grid-col w-full padd-2rem" src="https://images.unsplash.com/photo-1625173616412-7b403d49a41e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="Menu Picutre" loading="lazy" draggable="false">
+                    
+            
+                    <div class="grid-col-2 flex flex-col justify-center gap-2rem padd-2rem color-text w-full font-size-sub-title">
+
+                        <div class="flex items-center gap-1rem color-text w-full">                   
+                            <h2 class="font-size-title uppercase white-space">Our Menu</h2>
+                            <button class="max-width-10rem flex-center border-rounded-full cursor-pointer bg-none border-w-1 border-color-light">
+                                <a href="/pages/menu.html" class="text-decolist-none">
+                                    <div class="flex-center gap-1rem padd-block-04rem padd-in-5vw w-full color-text">
+                                        
+                                        <p class="white-space font-btn">See more</p>
+                                        <lottie-player src="/assets/icons/arrow-rigth.json" background="transparent"  speed="1"  style="width: 24px; height:24px;" loop autoplay></lottie-player>
+                                    </div>
+                                </a>
+                            </button>
+                        </div>
+
+                        <div class="flex items-center justify-between">
+                            <div class="flex gap-2rem" >
+                                <h3 class="coffee-btn font-size-sub-title cursor-pointer" aria-controls="coffee-container">Coffee</h3>
+                                <h4 class="cake-btn font-size-sub-title cursor-pointer deactive-btn" aria-controls="cakes-container">Cakes</h4>
+
+                            </div>
+                            <span class="font-size-sub-title">Price</span>
+                        </div>
+
+
+
+                        <div data-visible="true" class="coffee-container flex flex-col gap-1rem">
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Double Espresso</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 8.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Americano</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 9.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Iced Americano</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 10.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Cappuccino</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Flat White</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Latte</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Latte Macchiato</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 12.49</p>
+                            </div>
+                            <span class="border"></span>
+                        </div>
+
+
+                        <div data-visible="false" class="cakes-container flex flex-col gap-1rem">
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Brownie</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 13.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Chocolate</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Red velvet</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 12.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Carrot</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 9.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Banana</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 9.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Lemon Cake</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 9.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Vanilla Cake</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                        </div>
+
+
+
+
+                    </div>
+        </div>
+    </section>
+
+
+    <section id="events-section" class="events-container padd-between-section">
+        <div class="events-wrapper max-width margin-0-auto padd-inline w-full grid grid-temp-col gap-2rem">
+            <img class="w-full padd-2rem" src="https://images.unsplash.com/photo-1658713065701-a8a64463de8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="Coffee Shop Picutre" loading="lazy" draggable="false">
+            <div class="flex flex-col justify-center gap-2rem padd-2rem color-text">
+                <h2 class="font-size-title uppercase">Events</h2>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">At our coffee shop, we don't just serve great coffee and food - we also offer a beautiful and unique space for events! Whether you're planning a birthday party, business meeting, baby shower, or any other special occasion, we have the perfect venue for you..</p>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">In addition to our beautiful event space, we also offer off-site catering services. We can provide delicious food and beverages for your event, whether it's at your home, office, or another venue of your choice.</p>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">So, if you're looking for a unique and memorable venue for your next event, look no further than our coffee shop restaurant in Kraków. Contact us today to learn more about our event services and to start planning your special occasion with us!</p>
+                <button class="max-width-10rem border-rounded-full cursor-pointer bg-none border-w-1 border-color-light">
+                    <a href="/pages/events.html" class="text-decolist-none">
+                        <div class="flex-center gap-1rem padd-block-04rem color-text">
+                            
+                            <p class="white-space font-btn">Learn more</p>
+                            <lottie-player src="/assets/icons/arrow-rigth.json" background="transparent"  speed="1"  style="width: 24px; height:24px;" loop autoplay></lottie-player>
+                        </div>
+                    </a>
+                    </button>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <section class="quote-container padd-between-section">
+        <div class="quote-wrapper max-width margin-0-auto padd-inline w-full">
+            <h5 class="flex-center font-size-title uppercase white-space padd-2rem text-wrap color-dark ">"I have measured out my life with coffee spoons." </h5>
+        </div>
+    </section>
+
+
+    <section id="gallery-section" class="gallery-container padd-between-section">
+        <div class="gallery-wrapper max-width margin-0-auto padd-inline w-full  flex-center flex-col gap-2rem"">
+
+            <div class="flex justify-center items-center gap-1rem color-text w-full">                   
+                <h2 class="font-size-title uppercase white-space">Gallery</h2>
+                <button class="max-width-10rem flex-center border-rounded-full cursor-pointer bg-none border-w-1 border-color-light text-decolist-none">
+                <!-- <button class="action-btn cursor-pointer font-weight-500 font-size-paragraph border-rounded-full border-color-light box-shadow-big-rounded padd-block-04rem padd-in-2rem border-none max-width-10rem"> -->
+                    <a href="/pages/gallery.html" class="text-decolist-none">
+                        <div class="flex-center gap-1rem padd-block-04rem padd-in-5vw w-full color-text">
+                            
+                            <p class="white-space font-btn">See more</p>
+                            <lottie-player src="/assets/icons/arrow-rigth.json" background="transparent"  speed="1"  style="width: 24px; height:24px;" loop autoplay></lottie-player>
+                        </div>
+                    </a>
+                </button>
+            </div>
+            <div class="grid grid-temp-col gap-2rem w-full">
+
+
+                <div class="gallery-cofe flex flex-col justify-center items-end gap-2rem padd-2rem color-text w-full img-projects">
+                    <!-- <img class="object-cover w-full" src="https://images.unsplash.com/photo-1620360289812-0abdae69d6d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="Coffe Picutres" loading="lazy"> -->
+                    <h5 class="font-size-sub-title uppercase white-space padd-2rem text-wrap color-text font-family-nav text-wrap">"Coffee, the favorite drink of the civilized world."</h5>
+                    <!-- <button class="max-width-10rem flex-center border-rounded-full cursor-pointer bg-none border-w-1 border-color-light">
+                        <a href="/pages/gallery.html">
+                            <div class="flex-center gap-1rem padd-block-04rem padd-in-5vw w-full color-text">
+                                
+                                <p class="white-space font-btn">See our gallery</p>
+                                <lottie-player src="/assets/icons/arrow-rigth.json" background="transparent"  speed="1"  style="width: 24px; height:24px;" loop autoplay></lottie-player>
+                            </div>
+                        </a>
+                    </button> -->
+                </div>
+
+                <div class="gallery-cake flex flex-col justify-center items-end padd-2rem color-text w-full img-projects">
+                    <!-- <img class="object-cover w-full" src="https://images.unsplash.com/photo-1512325605119-b10de50ecba9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3874&q=80" alt="Cake Picutres" loading="lazy"> -->
+                    <h5 class="font-size-sub-title uppercase white-space padd-2rem text-wrap color-text font-family-nav text-wrap">"Cake is the answer, no matter the question." </h5>
+                    <!-- <button class="max-width-10rem flex-center border-rounded-full cursor-pointer bg-none border-w-1 border-color-light">
+                        <a href="/pages/gallery.html">
+                            <div class="flex-center gap-1rem padd-block-04rem padd-in-5vw w-full color-text">
+                                
+                                <p class="white-space font-btn">See our gallery</p>
+                                <lottie-player src="/assets/icons/arrow-rigth.json" background="transparent"  speed="1"  style="width: 24px; height:24px;" loop autoplay></lottie-player>
+                            </div>
+                        </a>
+                    </button> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-section" class="contact-container padd-between-section">
+        <div class="contact-wrapper max-width margin-0-auto padd-inline w-full grid grid-temp-col gap-2rem">
+            <div class="flex flex-col justify-center gap-2rem padd-2rem color-text">
+                <h2 class="font-size-title uppercase">Contact Us</h2>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">We would love to hear from you! If you have any questions, comments, or feedback about our coffee shop or our menu, please don't hesitate to get in touch with us.</p>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">You can contact us by phone at [insert phone number] during our regular business hours. Alternatively, you can send us an email at [insert email address], and we will get back to you as soon as possible.</p>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">You can also follow us on social media to stay up to date on our latest news, events, and promotions. Find us on [insert social media platforms] and join our online community.</p>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">If you're interested in booking our event space or our off-site catering services, please contact us at [insert phone number or email address]. Our experienced staff will work with you to create a customized package that meets your needs and exceeds your expectations.</p>
+            </div>
+            <div class="flex flex-col justify-center gap-2rem padd-2rem color-text">
+                <form action="https://formsubmit.co/2c60f98763e26b2d0fe6b0c8d5291b8e" method="POST" class="flex flex-col gap-1rem ">
+                    <!-- <input type="text" name="name" required placeholder="Your Name"> -->
+                    <input type="email" name="email" required placeholder="Your Email Address" class="font-family-nav letter-spacing padd-in-2rem padd-block-04rem bg-nav border-none color-text">
+                    <textarea name="message" id="" style="resize: none;" cols="30" rows="10" placeholder="Write your message" class="font-family-nav letter-spacing padd-in-2rem padd-block-1rem bg-nav border-none color-text">
+
+                    </textarea>
+                    <!-- <input type="hidden" name="_next" value="/index.html"> -->
+                    <button type="submit" class="action-btn cursor-pointer font-weight-500 font-size-paragraph border-rounded-full border-color-light box-shadow-big-rounded padd-block-04rem padd-in-2rem border-none">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>  
+    <div class="newsletter-container">
+            <!-- <div class="newsletter-wrapper max-width margin-0-auto padd-block-4rem w-full flex items-end"> -->
+            <div class="newsletter-wrapper flex-center max-width margin-0-auto padd-block-4rem wh-full">
+                <div class="newsletter-box border-rounded-half  w-full relative">
+
+                    <button class="news-close bg-none border-none absolute cursor-pointer"><lottie-player src="/assets/pictures/close.json" background="transparent"  speed="1"  style="width: 100%; height:100%;" loop autoplay></lottie-player></button>
+
+                    <form action="https://formsubmit.co/2c60f98763e26b2d0fe6b0c8d5291b8e" method="POST" class="flex flex-col items-center justify-center gap-2rem font-family-nav w-full padd-inline padd-block-4rem">
+                        <label for="" class="color-text font-size-span">Sign up for for free coffee</label>
+                        <input type="email" name="email" required placeholder="Your Email Address" class="font-family-nav letter-spacing bg-nav border-none color-text padd-inline padd-block-1rem flex-center cursor-pointer border-w-1 border-color-light w-full">                      
+                        <button type="submit" class="action-btn cursor-pointer font-weight-500 font-size-paragraph border-rounded-full border-color-light box-shadow-big-rounded padd-block-04rem padd-in-2rem border-none">Subscribe</button>
+                    </form>
+
+
+                    <!-- <form class="flex flex-col items-center justify-center gap-2rem font-family-nav w-full padd-inline padd-block-4rem">
+                            <label for="" class="color-text font-size-span">Sign up for for free coffee</label>    
+                        <div class="flex flex-col justify-center items-center flex-wrap justify-between gap-1rem w-full">
+                            <input class="padd-inline padd-block-1rem flex-center cursor-pointer border-w-1 border-color-light w-full" type="text">     
+                            <button type="submit" class="sub-btn padd-block-04rem max-width-10rem flex-center border-rounded-full cursor-pointer border-w-1 border-color-light w-full font-weight-500 font-size-paragraph flex gap-1rem">Sign Up</button>                           
+                        </div>
+                    </form> -->
+                </div>
+    </div>
+</main>
+
+    <footer class="footer-container padd-between-section">
+        <div class="footer-wrapper max-width margin-0-auto padd-inline flex flex-col gap-1rem">
+            <!-- <h6 class="font-size-sub-title uppercase white-space padd-2rem text-wrap color-text font-family-nav text-wrap">Lurr Cafe</h6> -->
+            <div class="grid grid-temp-col-3 gap-2rem padd-in-2rem">
+                <h6 class="font-family-sub font-size-sub-title color-text padd-in-2rem padd-block-2rem">Lurr Cafe</h6>
+
+                <!-- <div class="flex flex-col gap-1rem font-family-nav  w-full ">
+                    <label for="" class="color-text font-size-span">Sign up for our newsletter for free coffee</label>
+
+                    <div class="flex items-center flex-wrap justify-between gap-1rem">
+                        <form action="">
+
+                            <input class="padd-inline padd-block-1rem flex-center cursor-pointer border-w-1 border-color-light w-full" type="text">
+                                                     <button class="sub-btn padd-block-1rem max-width-10rem flex-center border-rounded-full cursor-pointer border-w-1 border-color-light w-full font-weight-500 font-size-paragraph" type="submit" src="/pages/about.html">Sign Up</button>
+                        </form>
+                    </div>
+                </div> -->
+
+                <div class="footer-col-2 flex-center w-full">
+                    <div class="flex flex-col justify-center gap-1rem font-family-nav col-width">
+                        <a class="color-paragraph font-size-paragraph text-decolist-none" href="">About us</a>
+                        <a class="color-paragraph font-size-paragraph text-decolist-none" href="">Menu</a>
+                        <!-- <a class="color-paragraph font-size-paragraph text-decolist-none" href="">Reservation</a> -->
+                        <a class="color-paragraph font-size-paragraph text-decolist-none" href="">Events</a>
+                        <a class="color-paragraph font-size-paragraph text-decolist-none" href="">Contact</a>
+                        <a class="color-paragraph font-size-paragraph text-decolist-none" href="">Blog</a>
+                        <!-- <a class="color-paragraph font-size-span text-decolist-none" href=""></a> -->
+                    </div>
+                </div>
+
+                <div class="footer-col-3 flex w-full col-width">
+                    <a class="color-paragraph font-size-paragraph text-decolist-none letter-spacing" href="">ul.Uliczna 101a, Kraków, Polska</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>

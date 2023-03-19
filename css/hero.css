@@ -1,0 +1,11 @@
+.hero-title::after{
+    content: '';
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 6px;
+    height: 2.5px;
+    z-index: 20;
+    position: absolute;
+    top: .2rem;
+    right: 0.4rem;
+}

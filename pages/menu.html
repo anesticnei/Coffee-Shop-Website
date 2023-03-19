@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mediaq.css">
+    <title>Cofee</title>
+</head>
+<body>
+    <div id="preloader" class="flex-center">
+        <lottie-player class="z-i-10 hero-lottie" src="/assets/pictures/loading.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    </div>
+    <header class="nav-bar w-full relative">
+        <nav class="nav-container w-full z-i-10 transition-all">
+            <div class="nav-wrapper max-width flex justify-between items-center margin-0-auto padd-block-1rem padd-inline relative">
+                                            <div class="logo-container flex-center">
+                                                <a href="/index.html" class="flex-center font-family-logo color-text font-size-logo text-decolist-none white-space">Lurr Cafè</a>
+                                            </div>
+
+                                                <ul class="nav-links-container flex items-center justify-between text-decolist-none gap-2rem color-nav font-size-nav font-weight-400 font-family-nav" data-visible="false">                 
+                                                    <li><a href="/index.html" class="text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Home</a></li>                   
+                                                    <li><a href="/pages/about.html"  class="text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">About Us</a></li>                   
+                                                    <li><a href="/pages/menu.html"  class="text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Menu</a></li>                   
+                                                    <!-- <li><a class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase">Reservations</a></li>                    -->
+                                                    <li><a href="/pages/events.html"  class="text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Events</a></li>                   
+                                                    <li><a href="/pages/gallery.html"  class="text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Gallery</a></li>                   
+                                                    <li><a href="/pages/contact.html"  class="text-decolist-none  nav-link-hover cursor-pointer uppercase color-text">Contact</a></li>
+                                                    <span class="nav-border"></span>                   
+                                                    <!-- <li><a class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase"><img src="/assets/icons/facebook.svg" class="icon-spec" alt=""></a></li> -->
+                                                    <li><a href="https://www.instagram.com/" target="_blank" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase"><lottie-player class="z-i-10 icon-spec" src="/assets/pictures/instagram.json" background="transparent"  speed="1"  style="width: 30px; height: 30px;" loop autoplay></a></lottie-player></li>
+                                                    <li><a href="https://www.facebook.com/" target="_blank" class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase"><lottie-player class="z-i-10 icon-spec" src="/assets/pictures/facebook.json" background="transparent"  speed="1"  style="width: 34px; height: 34px;" loop autoplay></a></lottie-player></li>
+
+                                                    <!-- <li><a class="nav-links-toggle text-decolist-none  nav-link-hover cursor-pointer uppercase"><img src="/assets/icons/instagram.svg" class="icon-spec" alt=""></a></li> -->
+                                
+                                                </ul>
+                                                
+                                                <div class="mobile-nav-toggle hamburger-wrapper nav-items flex-center relative cursor-pointer">
+                                                <button class=" hamburger-icon relative border-none flex items-center justify-center w-full" aria-controls="nav-links-container" aria-expanded="false">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </button>
+                                                </div>
+            </div>
+        </nav>
+    </header>
+<main>
+    <section id="menu-section" class="menu-container padd-between-section">
+        <div class="menu-wrapper max-width margin-0-auto padd-inline w-full grid grid-temp-col gap-2rem">
+
+                    <img class="grid-col w-full padd-2rem" src="https://images.unsplash.com/photo-1625173616412-7b403d49a41e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="Menu Picutre" loading="lazy" draggable="false">
+                    
+            
+                    <div class="grid-col-2 flex flex-col justify-center gap-2rem padd-2rem color-text w-full font-size-sub-title">
+
+                        <div class="flex items-center gap-1rem color-text w-full">                   
+                            <h2 class="font-size-title uppercase white-space">Our Menu</h2>
+                        </div>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Our menu features a variety of delicious coffee drinks, baked goods, and other treats that are sure to delight your taste buds. Here are just a few of our most popular items:</p>
+
+                        <div class="flex items-center justify-between">
+                            <div class="flex gap-2rem" >
+                                <h3 class="coffee-btn font-size-sub-title cursor-pointer" aria-controls="coffee-container">Coffee</h3>
+                                <h4 class="cake-btn font-size-sub-title cursor-pointer deactive-btn" aria-controls="cakes-container">Cakes</h4>
+
+                            </div>
+                            <span class="font-size-sub-title">Price</span>
+                        </div>
+
+
+
+                        <div data-visible="true" class="coffee-container flex flex-col gap-1rem">
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Double Espresso</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 8.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Americano</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 9.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Iced Americano</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 10.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Cappuccino</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Flat White</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Latte</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Latte Macchiato</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 12.49</p>
+                            </div>
+                            <span class="border"></span>
+                        </div>
+
+
+                        <div data-visible="false" class="cakes-container flex flex-col gap-1rem">
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Brownie</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 13.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Chocolate</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Red velvet</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 12.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Carrot</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 9.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Banana</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 9.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Lemon Cake</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 9.99</p>
+                            </div>
+                            <span class="border"></span>
+                            <div class="flex items-center justify-between">
+                                <span class="font-size-span letter-spacing font-family-nav font-weight-300">Vanilla Cake</span>
+                                <p class="font-family-nav font-weight-300 font-size-paragraph">$ 11.99</p>
+                            </div>
+                            <span class="border"></span>
+                        </div>
+
+
+                        <!-- <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing padd-top-2rem">We take great pride in the quality of our coffee and baked goods, and use only the best ingredients to create our menu items. We also offer gluten-free and vegan options for our customers with dietary restrictions.</p> -->
+                       
+                    </div>
+
+                    <div class="flex flex-col justify-center gap-2rem padd-2rem color-text">
+                        <h2 class="font-size-title uppercase">COFFEE DRINKS:</h2>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Espresso: A classic shot of rich, bold coffee.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Americano: Espresso shots topped with hot water, for a milder, smoother flavor.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Cappuccino: Espresso with steamed milk and a thick layer of froth.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Latte: Espresso with steamed milk, topped with a thin layer of froth.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Mocha: Espresso with steamed milk and chocolate syrup, topped with whipped cream.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Cold Brew: A refreshing, smooth coffee drink brewed with cold water.</p>
+                    </div>
+                    <div class="flex flex-col justify-center gap-2rem padd-2rem color-text">
+                        <h2 class="font-size-title uppercase">BAKED GOODS:</h2>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Cakes: We offer a variety of cakes, from classic chocolate cake to fruity cheesecakes.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Pastries: Our selection of pastries includes croissants, muffins, and danishes, all made fresh daily.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Cookies: Our cookies come in a variety of flavors, including chocolate chip, oatmeal raisin, and peanut butter.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing"></p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing"></p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing"></p>
+                    </div>
+                    <div class="flex flex-col justify-center gap-2rem padd-2rem color-text">
+                        <h2 class="font-size-title uppercase">OTHER TREATS:</h2>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Hot Chocolate: Rich and creamy, our hot chocolate is the perfect treat on a cold day.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Tea: We offer a selection of premium teas, including herbal and fruit blends.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">Smoothies: Our smoothies are made with fresh fruit and yogurt, and come in a variety of flavors.</p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing"></p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing"></p>
+                        <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing"></p>
+                    </div>
+        </div>
+    </section> 
+    <section id="contact-section" class="contact-container padd-between-section">
+        <div class="contact-wrapper max-width margin-0-auto padd-inline w-full grid grid-temp-col gap-2rem">
+            <div class="flex flex-col justify-center gap-2rem padd-2rem color-text">
+                <h2 class="font-size-title uppercase">Contact Us</h2>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">We would love to hear from you! If you have any questions, comments, or feedback about our coffee shop or our menu, please don't hesitate to get in touch with us.</p>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">You can contact us by phone at [insert phone number] during our regular business hours. Alternatively, you can send us an email at [insert email address], and we will get back to you as soon as possible.</p>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">You can also follow us on social media to stay up to date on our latest news, events, and promotions. Find us on [insert social media platforms] and join our online community.</p>
+                <p class="font-family-nav font-size-paragraph font-weight-400 letter-spacing">If you're interested in booking our event space or our off-site catering services, please contact us at [insert phone number or email address]. Our experienced staff will work with you to create a customized package that meets your needs and exceeds your expectations.</p>
+            </div>
+            <div class="flex flex-col justify-center gap-2rem padd-2rem color-text">
+                <form action="https://formsubmit.co/2c60f98763e26b2d0fe6b0c8d5291b8e" method="POST" class="flex flex-col gap-1rem ">
+                    <!-- <input type="text" name="name" required placeholder="Your Name"> -->
+                    <input type="email" name="email" required placeholder="Your Email Address" class="font-family-nav letter-spacing padd-in-2rem padd-block-04rem bg-nav border-none color-text">
+                    <textarea name="message" id="" style="resize: none;" cols="30" rows="10" placeholder="Write your message" class="font-family-nav letter-spacing padd-in-2rem padd-block-1rem bg-nav border-none color-text">
+
+                    </textarea>
+                    <!-- <input type="hidden" name="_next" value="/index.html"> -->
+                    <button type="submit" class="action-btn cursor-pointer font-weight-500 font-size-paragraph border-rounded-full border-color-light box-shadow-big-rounded padd-block-04rem padd-in-2rem border-none">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>   
+</main>
+
+<footer class="footer-container padd-between-section">
+    <div class="footer-wrapper max-width margin-0-auto padd-inline flex flex-col gap-1rem">
+        <div class="grid grid-temp-col-3 gap-2rem padd-in-2rem">
+            <h6 class="font-family-sub font-size-sub-title color-text padd-in-2rem padd-block-2rem">Lurr Cafe</h6>
+            <div class="footer-col-2 flex-center w-full">
+                <div class="flex flex-col justify-center gap-1rem font-family-nav col-width">
+                    <a class="color-paragraph font-size-paragraph text-decolist-none" href="">About us</a>
+                    <a class="color-paragraph font-size-paragraph text-decolist-none" href="">Menu</a>
+                    <a class="color-paragraph font-size-paragraph text-decolist-none" href="">Events</a>
+                    <a class="color-paragraph font-size-paragraph text-decolist-none" href="">Contact</a>
+                    <a class="color-paragraph font-size-paragraph text-decolist-none" href="">Blog</a>
+                </div>
+            </div>
+            <div class="footer-col-3 flex w-full col-width">
+                <a class="color-paragraph font-size-paragraph text-decolist-none letter-spacing" href="">ul.Uliczna 101a, Kraków, Polska</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
